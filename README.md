@@ -2,7 +2,7 @@
 Script created with Selenium and Python to follow a given set of instructions.
 
 ### General Info
-This project runs a simple script to:
+This project runs a script to:
 - Navigate to Google
 - Search for term (stackoverflow)
 - Select the appropriate Google result
@@ -23,8 +23,7 @@ First, clone the repo:
 ```
 git clone https://github.com/jevgarcia22/alertMedia.git
 ```
-Navigate to the project root
-Create a virtual environment
+Navigate to the project root and create a virtual environment
 ```
 python3 -m venv env
 ```
