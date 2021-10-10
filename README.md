@@ -14,7 +14,7 @@ This project runs a script to:
 ### Technologies
 Project created with:
 - Python 3.6
-- Selenium
+- Selenium 3.141.0
 - Chromedriver 94.0.4606.61
   - see https://chromedriver.chromium.org/getting-started for more info on Chromedriver
 
