@@ -8,13 +8,13 @@ Simple script created with Selenium and Python
 
 ### General Info
 This project runs a simple script to:
-Navigate to Google
-Search for a term (stackoverflow)
-Select the appropriate Google result
-On Stackoverflow.com, open the menu and select Tags
-Filter Tags for Python-3.6
-Find and select the question with the highest number of votes
-Print the author of the answer to the above question with the highest number of votes
+- Navigate to Google
+- Search for term (stackoverflow)
+- Select the appropriate Google result
+- Open Stackoverflow.com menu and select Tags
+- Filter Tags for Python-3.6
+- Find and select the question with the highest number of votes
+- Print the author of the answer to the above question with the highest number of votes
 
 ### Technologies
 Project created with:
