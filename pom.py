@@ -169,7 +169,7 @@ class WebElements:
         """
         votes = self.driver.find_elements_by_xpath(Locators.answer_votes)
         highest_number = self.find_highest_vote(votes)
-        test = self.driver.find_element_by_xpath(
+        post = self.driver.find_element_by_xpath(
             "//div[@class='post-layout' and contains(., '" + str(highest_number) + "')]//span[@itemprop='name']")
-        name = test.get_attribute('innerText')
-        print('The author of the highest voted answer is {0}'.format(name))
+        author = post.get_attribute('innerText')
+        print('The author of the highest voted answer is {0}'.format(author))
