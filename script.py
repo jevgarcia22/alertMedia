@@ -7,6 +7,7 @@ if __name__ == '__main__':
     tag = "python-3.6"
 
     driver = webdriver.Chrome()
+    driver.maximize_window()
 
     # navigate to google
     driver.get("https://www.google.com")
