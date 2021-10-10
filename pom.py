@@ -36,9 +36,6 @@ class Locators(object):
 class WebElements:
     # when class is instantiated, run this automatically
     def __init__(self, driver):
-        """
-        :param driver:
-        """
         self.driver = driver
 
     def wait_for_page_to_load(self, locator):
