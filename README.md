@@ -1,11 +1,6 @@
 # Take home assignment
 Script created with Selenium and Python to follow a given set of instructions.
 
-## Table of Contents
-* [General info] (link)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
-
 ### General Info
 This project runs a simple script to:
 - Navigate to Google
@@ -41,7 +36,7 @@ Install dependencies into the virtual environment
 ```
 pip install -r requirements.txt
 ```
-#### Running Script
+### Running Script
 To execute from the command line:
 ```
 python3 script.py
