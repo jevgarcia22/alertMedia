@@ -1,8 +1,8 @@
 # Take home assignment
-Simple script created with Selenium and Python
+Script created with Selenium and Python to follow a given set of instructions.
 
 ## Table of Contents
-* [General info] (#general-info)
+* [General info] (link)
 * [Technologies] (#technologies)
 * [Setup] (#setup)
 
@@ -20,6 +20,29 @@ This project runs a simple script to:
 Project created with:
 - Python 3.6
 - Selenium
+- Chromedriver 94.0.4606.61
+  - see https://chromedriver.chromium.org/getting-started for more info on Chromedriver
 
 ### Setup
-To run this project, install it locally using
+First, clone the repo:
+```
+git clone https://github.com/jevgarcia22/alertMedia.git
+```
+Navigate to the project root
+Create a virtual environment
+```
+python3 -m venv env
+```
+Activate the virtual environment
+```
+source venv/bin/activate
+```
+Install dependencies into the virtual environment
+```
+pip install -r requirements.txt
+```
+#### Running Script
+To execute from the command line:
+```
+python3 script.py
+```
